@@ -1,7 +1,7 @@
 // src/pages/JobSeekersPage.jsx
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { GridScan } from "../components/common/NeonGrid";
+// import { GridScan } from "../components/common/NeonGrid";
 
 /**
  * JobSeekersPage - Extended with two new sections:
