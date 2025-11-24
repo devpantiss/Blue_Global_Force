@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
  */
 
 const VIDEO_SRC =
-  "https://res.cloudinary.com/dxzhnns58/video/upload/v1763552443/25550-350507943_cpd6fx.mp4";
+  "https://res.cloudinary.com/dxzhnns58/video/upload/v1763970487/5322668-hd_1920_1080_30fps_d9ojxg.mp4";
 
 // Local poster (uploaded file path). Build tooling should transform this to an accessible URL.
 const POSTER = "/mnt/data/Screenshot 2025-11-19 at 2.19.14 PM.png";
@@ -109,7 +109,9 @@ export default function HomePage() {
               id="hero-heading"
               className="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight"
             >
-              <span className="block text-gray-200/90">Connecting top talent with</span>
+              <span className="block text-gray-200/90">
+                Connecting top talent with
+              </span>
               <span
                 className="block mt-2 text-transparent bg-clip-text bg-linear-to-r from-teal-300 via-violet-400 to-pink-400"
                 style={{ WebkitBackgroundClip: "text" }}
@@ -119,8 +121,8 @@ export default function HomePage() {
             </h1>
 
             <p className="mt-4 text-sm sm:text-base text-gray-300 max-w-2xl mx-auto">
-              Your ideal opportunity is just a click away — discover vetted jobs or find top talent faster with smart
-              matching and clarity.
+              Your ideal opportunity is just a click away — discover vetted jobs
+              or find top talent faster with smart matching and clarity.
             </p>
           </header>
 
@@ -146,15 +148,27 @@ export default function HomePage() {
           {/* subtle divider and small links */}
           <div className="mt-8 border-t border-white/8 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-300">
             <div className="flex items-center gap-3">
-              <span className="text-teal-300 font-medium">Download the App</span>
+              <span className="text-teal-300 font-medium">
+                Download the App
+              </span>
 
               <div className="flex items-center gap-2">
                 <button
                   type="button"
                   className="flex items-center gap-2 px-3 py-2 rounded-md bg-white/6 border border-white/8 hover:bg-white/8"
                 >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
-                    <path d="M4 4h16v16H4z" stroke="currentColor" strokeWidth="1" />
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden
+                  >
+                    <path
+                      d="M4 4h16v16H4z"
+                      stroke="currentColor"
+                      strokeWidth="1"
+                    />
                   </svg>
                   <span className="text-xs text-gray-200">App Store</span>
                 </button>
@@ -163,8 +177,20 @@ export default function HomePage() {
                   type="button"
                   className="flex items-center gap-2 px-3 py-2 rounded-md bg-white/6 border border-white/8 hover:bg-white/8"
                 >
-                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden>
-                    <circle cx="12" cy="12" r="9" stroke="currentColor" strokeWidth="1" />
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden
+                  >
+                    <circle
+                      cx="12"
+                      cy="12"
+                      r="9"
+                      stroke="currentColor"
+                      strokeWidth="1"
+                    />
                   </svg>
                   <span className="text-xs text-gray-200">Play Store</span>
                 </button>

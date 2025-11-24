@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
  */
 
 const VIDEO_SRC =
-  "https://res.cloudinary.com/dxzhnns58/video/upload/v1763970487/5322668-hd_1920_1080_30fps_d9ojxg.mp4";
+"https://res.cloudinary.com/dxzhnns58/video/upload/v1763552443/25550-350507943_cpd6fx.mp4";
 // local poster / placeholder image (uploaded file path)
 const HERO_POSTER = "/mnt/data/Screenshot 2025-11-19 at 2.19.14 PM.png";
 
