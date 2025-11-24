@@ -1,7 +1,7 @@
 import React from "react";
 
 // local poster/logo file you uploaded
-const LOGO_URL = "/mnt/data/Screenshot 2025-11-19 at 2.19.14 PM.png";
+const LOGO_URL = "https://res.cloudinary.com/dxzhnns58/image/upload/v1763625831/BGF_za5kuc.png";
 
 export default function NeonLoader({ size = 300, rings = 15 }) {
   const items = Array.from({ length: rings });

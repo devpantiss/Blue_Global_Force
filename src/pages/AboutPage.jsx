@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
  */
 
 const VIDEO_SRC =
-  "https://res.cloudinary.com/dxzhnns58/video/upload/v1763552443/25550-350507943_cpd6fx.mp4";
+  "https://res.cloudinary.com/dxzhnns58/video/upload/v1763970487/5322668-hd_1920_1080_30fps_d9ojxg.mp4";
 // local poster / placeholder image (uploaded file path)
 const HERO_POSTER = "/mnt/data/Screenshot 2025-11-19 at 2.19.14 PM.png";
 
@@ -219,7 +219,7 @@ export default function AboutPage() {
   return (
     <main className="bg-black text-white">
       {/* HERO */}
-      <section className="relative h-[70vh] min-h-[360px] overflow-hidden">
+      <section className="relative h-screen overflow-hidden">
         <video
           ref={videoRef}
           className="absolute inset-0 w-full h-full object-cover"
@@ -321,7 +321,7 @@ export default function AboutPage() {
             {SECTORS.map((s) => (
               <div key={s.id} className="px-3">
                 <article className="rounded-2xl border border-white/6 bg-white/3 overflow-hidden shadow-md">
-                  <div className="h-48 w-full relative">
+                  <div className="h-[400px] w-full relative">
                     <img
                       src={s.image || HERO_POSTER}
                       alt={`${s.title} illustrative`}

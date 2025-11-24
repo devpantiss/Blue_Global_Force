@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import AboutPage from "./pages/AboutPage";
 import JobSeekersPage from "./pages/JobsSeekerPage";
+import RecruitersPage from "./pages/RecruiterPage";
 
 function App() {
   const [showLoader, setShowLoader] = useState(true);
@@ -41,6 +42,7 @@ function App() {
         <Route path="/" element={<HomeHero />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/job-seekers" element={<JobSeekersPage />} />
+        <Route path="/recruiters" element={<RecruitersPage />} />
       </Routes>
     </Router>
   );
